@@ -3,11 +3,11 @@ import Router from 'vue-router'
 
 Vue.use(Router)
 
-import Home from './views/Home.vue'
+import Home from './views/HomeView.vue'
 import ProductList from './views/ProductList.vue'
 import ProductDetails from './views/ProductDetails.vue'
-import Cart from './views/Cart.vue'
-import Checkout from './views/Checkout.vue'
+import Cart from './views/CartView.vue'
+import Checkout from './views/CheckoutView.vue'
 
 export default new Router({
   mode: 'history',
