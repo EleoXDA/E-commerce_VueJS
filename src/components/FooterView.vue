@@ -1,11 +1,5 @@
 <template>
-  <div>
-    <h1>Footer</h1>
-  </div>
+  <footer>
+    <p>&copy; 2023 My E-commerce Store</p>
+  </footer>
 </template>
-
-<script>
-export default {
-  name: 'FooterView',
-};
-</script>
