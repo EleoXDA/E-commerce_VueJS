@@ -1,5 +1,22 @@
 <template>
   <footer>
-    <p>&copy; 2023 My E-commerce Store</p>
+    <p>©2023 My E-commerce Store. All rights reserved.</p>
+    <button @click="$emit('toggle-theme')">Toggle Theme</button>
   </footer>
 </template>
+
+<script>
+export default {
+  name: 'FooterView',
+};
+</script>
+
+<style>
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f5f5f5;
+}
+</style>
