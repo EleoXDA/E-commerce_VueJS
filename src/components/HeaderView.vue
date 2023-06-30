@@ -10,22 +10,22 @@
 </template>
 
 <script>
-export default {
-  name: 'HeaderView',
-};
+  export default {
+    name: 'HeaderView',
+  };
 </script>
 
 <style>
-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: var(--bg-color);
-  color: var(--font-color);
-}
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: var(--bg-color);
+    color: var(--font-color);
+  }
 
-nav {
-  display: flex;
-  gap: 20px;
-}
+  nav {
+    display: flex;
+    gap: 20px;
+  }
 </style>
