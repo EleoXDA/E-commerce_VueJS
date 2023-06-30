@@ -15,80 +15,64 @@
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      items: [
-        {
-          id: 1,
-          title: 'Item 1',
-          description: 'Description for item 1',
-          price: 10.99,
-          image: 'https://example.com/item1.jpg',
-        },
-        {
-          id: 2,
-          title: 'Item 2',
-          description: 'Description for item 2',
-          price: 19.99,
-          image: 'https://example.com/item2.jpg',
-        },
-      ],
-    };
-  },
-};
+  export default {
+    data() {
+      return {
+        items: [
+          {
+            id: 1,
+            title: 'Item 1',
+            description: 'Description for item 1',
+            price: 10.99,
+            image: 'https://example.com/item1.jpg',
+          },
+          {
+            id: 2,
+            title: 'Item 2',
+            description: 'Description for item 2',
+            price: 19.99,
+            image: 'https://example.com/item2.jpg',
+          },
+        ],
+      };
+    },
+  };
 </script>
 <style>
-#app {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
-}
+  #app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  padding: 20px;
-  background-color: #f5f5f5;
-}
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
 
-nav {
-  display: flex;
-  gap: 20px;
-}
+  nav {
+    display: flex;
+    gap: 20px;
+  }
 
-main {
-  flex-grow: 1;
-  padding: 20px;
-}
+  main {
+    flex-grow: 1;
+    padding: 20px;
+  }
 
-.featured-items {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
-}
+  .featured-items {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+  }
 
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #f5f5f5;
-}
-
-.light {
-  --bg-color: #fff;
-  --font-color: #000;
-}
-
-.dark {
-  --bg-color: #000;
-  --font-color: #fff;
-}
-
-body {
-  background-color: var(--bg-color);
-  color: var(--font-color);
-  transition: background-color 0.5s ease, color 0.5s ease;
-}
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+  }
 </style>
