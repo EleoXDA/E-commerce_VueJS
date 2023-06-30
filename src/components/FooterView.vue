@@ -6,17 +6,16 @@
 </template>
 
 <script>
-export default {
-  name: 'FooterView',
-};
+  export default {
+    name: 'FooterView',
+  };
 </script>
 
 <style>
-footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px;
-  background-color: #f5f5f5;
-}
+  footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+  }
 </style>
