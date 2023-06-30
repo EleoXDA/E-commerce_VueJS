@@ -1,3 +1,16 @@
 body {
   margin: 0;
+  background-color: var(--bg-color);
+  color: var(--font-color);
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.light {
+  --bg-color: #fff;
+  --font-color: #000;
+}
+
+.dark {
+  --bg-color: #000;
+  --font-color: #fff;
 }
